@@ -1,0 +1,16 @@
+    {
+    "name": "sofer-eg/test-vending-machine",
+    "description": "Test vending machine project",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Controller\\": "framework/controller/",
+            "Model\\": "framework/model/",
+            "View\\": "framework/view/"
+        }
+    }
+}

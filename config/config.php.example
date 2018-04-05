@@ -1,0 +1,12 @@
+<?php
+return [
+    'baseUrl' => '//example.com/',
+    'siteName' => 'Vending Machine',
+    'db' => [
+        'host' => 'localhost',
+        'user' => 'user',
+        'pass' => 'password',
+        'name' => 'database',
+        'prefix' => 'pref_'
+    ],
+];
